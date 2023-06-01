@@ -3,9 +3,14 @@ import "./detail.css"
 
 const Detail = () => {
   return (
-    <div>
-      ghngj
-    </div>
+    <div className='mainDetail'>
+      <div className="topDiv">
+        <div className="topNav flex row justify-between">
+            
+        </div>
+      </div>
+     
+    </div> 
   )
 }
 
