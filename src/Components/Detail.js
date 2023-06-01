@@ -8,7 +8,7 @@ const Detail = () => {
       <div className="topDiv bg-opacity-10">
         <div className="overlay">
           <div className="topNav flex row justify-between p-6 opacity-100 items-center">
-            <Link>
+            <Link to="/">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" className='icons' />
               </svg>
@@ -20,7 +20,7 @@ const Detail = () => {
               </svg>
             </Link>
           </div>
-          <div className="mid flex flex-col justify-center items-center mt-10">
+          <div className="mid flex flex-col justify-center items-center">
             <img src={require("./assets/images/the_tiny_dragon.jpg")} alt="" srcset="" />
             <p className='txtCol text-lg font-bold'>The Tiny Dragon</p>
             <p className='txtCol font-semibold'>Rupret Carter</p>
@@ -28,15 +28,15 @@ const Detail = () => {
           <div className="bottomDiv flex flex-row justify-between m-6 p-4 mt-10">
             <div className="flex flex-col items-center justify-center ndifh">
               <p className="font-bold txtCol">4.5</p>
-              <p className="font-bold txtCol">rating</p>
+              <p className="font-regular txtCol">rating</p>
             </div>
             <div className="flex flex-col items-center justify-center ndifh">
               <p className="font-bold txtCol">160</p>
-              <p className="font-bold txtCol">Pages</p>
+              <p className="font-regular txtCol">Pages</p>
             </div>
             <div className="flex flex-col items-center justify-center ndifh">
               <p className="font-bold txtCol">Eng</p>
-              <p className="font-bold txtCol">Language</p>
+              <p className="font-regular txtCol">Language</p>
             </div>
           </div>
         </div>

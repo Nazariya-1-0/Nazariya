@@ -7,7 +7,7 @@ function App() {
   return (
       <Routes>
         <Route index element={<Hero/>}/>
-        <Route path='/detail' element={<Detail/>}/>
+        <Route path='/detail/the_tiny_dragon' element={<Detail/>}/>
       </Routes>
   );
 }

@@ -7,6 +7,7 @@ import the_metropolist from "./assets/images/the_metropolist.jpg"
 import { BiTimeFive } from "react-icons/bi"
 import { MdOutlineContentCopy } from "react-icons/md"
 import HeroBottom from './HeroBottom'
+import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
     <div className='text-white bg-[#1D212B] flex flex-col gap-6 px-4 pt-10'>
@@ -43,7 +44,7 @@ const BookCard = () => {
             </div>
           </div>
         </div>
-        <div className=''>
+        <Link to="/detail/the_tiny_dragon" className=''>
           <img src={the_tiny_dragon} alt="" className=' rounded-lg h-44 object-cover' />
           <div className="btm flex gap-3 mt-2">
             <div className='flex gap-1'>
@@ -54,7 +55,7 @@ const BookCard = () => {
               <MdOutlineContentCopy className='' /><p className='text-xs font-medium'>22%</p>
             </div>
           </div>
-        </div>
+        </Link>
         <div className=''>
           <img src={the_metropolist} alt="" className=' rounded-lg h-44 object-cover' />
           <div className="btm flex gap-3 mt-2">
