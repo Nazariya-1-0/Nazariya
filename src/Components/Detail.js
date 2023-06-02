@@ -8,7 +8,7 @@ const Detail = () => {
       <div className="topDiv bg-opacity-10">
         <div className="overlay">
           <div className="topNav flex row justify-between p-6 opacity-100 items-center">
-            <Link>
+            <Link to="/">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" className='icons' />
               </svg>
@@ -20,30 +20,30 @@ const Detail = () => {
               </svg>
             </Link>
           </div>
-          <div className="mid flex flex-col justify-center items-center mt-10">
-            <img src={require("./assets/images/the_tiny_dragon.jpg")} alt="" srcset="" />
+          <div className="mid flex flex-col justify-center items-center">
+            <img src={require("./assets/images/rich_dad_poor_dad.jpeg")} alt="" srcset="" />
             <p className='txtCol text-lg font-bold'>The Tiny Dragon</p>
             <p className='txtCol font-semibold'>Rupret Carter</p>
           </div>
           <div className="bottomDiv flex flex-row justify-between m-6 p-4 mt-10">
             <div className="flex flex-col items-center justify-center ndifh">
               <p className="font-bold txtCol">4.5</p>
-              <p className="font-bold txtCol">rating</p>
+              <p className="font-regular txtCol">rating</p>
             </div>
             <div className="flex flex-col items-center justify-center ndifh">
               <p className="font-bold txtCol">160</p>
-              <p className="font-bold txtCol">Pages</p>
+              <p className="font-regular txtCol">Pages</p>
             </div>
             <div className="flex flex-col items-center justify-center ndifh">
               <p className="font-bold txtCol">Eng</p>
-              <p className="font-bold txtCol">Language</p>
+              <p className="font-regular txtCol">Language</p>
             </div>
           </div>
         </div>
       </div>
       <div className="midMain flex flex-col p-4">
         <h2 className='txtCol text-xl font-semibold'>Description</h2>
-        <p className="mt-4 text-slate-300 book_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et dignissimos fugiat magnam quod voluptates aliquam est eius earum vero, nihil adipisci, iure atque. Dolor magnam nihil incidunt, ab quas quisquam animi obcaecati. Consequatur nostrum beatae sint iste optio, ipsum nobis non molestias laudantium quisquam hic quis rerum accusamus corrupti rem inventore deserunt qui in, error vel quod delectus repellendus! Mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vero hic commodi fugiat facere obcaecati quas vel quo, dolore nulla adipisci delectus nobis excepturi, sint est beatae error provident deserunt reprehenderit rem. Sit, neque?</p>
+        <p className="mt-4 text-slate-300 book_desc">In the enchanting world of dragons, where grand tales of fire-breathing behemoths abound, there lies a captivating legend of a tiny dragon that defies expectations. "The Tiny Dragon's Tale" is a heartwarming and whimsical story that will transport readers of all ages into a realm brimming with magic, friendship, and discovery.</p>
       </div>
       <div className="btmMain flex flex-row p-4 justify-between">
         <Link className='bookMark'>
@@ -52,12 +52,7 @@ const Detail = () => {
           </svg>
         </Link>
         <Link className='read txtCol'>Start Reading</Link>
-
       </div>
-
-
-
-
     </div>
   )
 }
