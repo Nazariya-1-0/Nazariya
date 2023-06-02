@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import notes from "./constants/books.json";
 import { useSpeechSynthesis } from 'react-speech-kit';
+import { Link } from 'react-router-dom';
+
 
 const Notes = () => {
   const [value, setValue] = useState('');
@@ -35,6 +37,10 @@ const Notes = () => {
           </ul>
         </div>
       ))}
+      <div className="flex flex-row justify-between">
+      <Link className='btnNext txtCol p-2' disabled>Prev</Link>
+      <Link className='btnNext txtCol p-2'>Next</Link>
+      </div>
     </div>
     <div className='flex w-[100%] justify-center items-center'>
 
