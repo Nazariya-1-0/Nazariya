@@ -2,8 +2,8 @@ import './App.css';
 import Detail from './Components/Detail';
 import {Routes,Route} from "react-router-dom"
 import Hero from './Components/Hero';
-import PdfViewer from './Components/PdfViewver';
 import Notes from './Components/Notes';
+import TextToSpeech from './Components/textTospeechtest';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Route index element={<Hero/>}/>
         <Route path='/detail/rich_dad' element={<Detail/>}/>
         <Route path='/detail/rich_dad/notes' element={<Notes/>}/>
-        <Route path='/pdf' element={<PdfViewer/>}/>
+        <Route path='/speech' element={<TextToSpeech/>}/>
       </Routes>
   );
 }
