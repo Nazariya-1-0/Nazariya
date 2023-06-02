@@ -55,9 +55,9 @@ const Detail = () => {
             </Link>
           </div>
           <div className="mid flex flex-col justify-center items-center">
-            <img src={require("./assets/images/rich_dad_poor_dad.jpeg")} className='w-38 h-52' alt="" srcset="" />
-            <p className='txtCol text-lg font-bold'>The Tiny Dragon</p>
-            <p className='txtCol font-semibold'>Rupret Carter</p>
+            <img src={require("./assets/images/rich_dad_poor_dad.jpeg")} className='w-38 h-52 rounded-lg' alt="" srcset="" />
+            <p className='txtCol text-lg font-bold'>Rich Dad Poor Dad</p>
+            <p className='txtCol font-semibold'>Robert Kiyosaki</p>
           </div>
           <div className="bottomDiv flex flex-row justify-between m-6 p-4 mt-10">
             <div className="flex flex-col items-center justify-center ndifh">
