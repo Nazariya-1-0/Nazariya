@@ -1,5 +1,7 @@
 import React from 'react';
 import notes from "./constants/books.json";
+import { Link } from 'react-router-dom';
+
 
 const Notes = () => {
   return (
@@ -17,6 +19,10 @@ const Notes = () => {
           </ul>
         </div>
       ))}
+      <div className="flex flex-row justify-between">
+      <Link className='btnNext txtCol p-2' disabled>Prev</Link>
+      <Link className='btnNext txtCol p-2'>Next</Link>
+      </div>
     </div>
   );
 }

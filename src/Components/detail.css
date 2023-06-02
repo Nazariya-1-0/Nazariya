@@ -48,7 +48,7 @@
 }
 
 .txtCol {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .topNav {
@@ -87,6 +87,13 @@
     background-color: chocolate;
     border-radius: 5px;
 }
+.btnNext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: chocolate;
+    border-radius: 5px;}
 
 .book_desc{
     height: 30vh;
