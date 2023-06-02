@@ -21,7 +21,7 @@ const Detail = () => {
             </Link>
           </div>
           <div className="mid flex flex-col justify-center items-center">
-            <img src={require("./assets/images/the_tiny_dragon.jpg")} alt="" srcset="" />
+            <img src={require("./assets/images/rich_dad_poor_dad.jpeg")} alt="" srcset="" />
             <p className='txtCol text-lg font-bold'>The Tiny Dragon</p>
             <p className='txtCol font-semibold'>Rupret Carter</p>
           </div>
@@ -43,7 +43,7 @@ const Detail = () => {
       </div>
       <div className="midMain flex flex-col p-4">
         <h2 className='txtCol text-xl font-semibold'>Description</h2>
-        <p className="mt-4 text-slate-300 book_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et dignissimos fugiat magnam quod voluptates aliquam est eius earum vero, nihil adipisci, iure atque. Dolor magnam nihil incidunt, ab quas quisquam animi obcaecati. Consequatur nostrum beatae sint iste optio, ipsum nobis non molestias laudantium quisquam hic quis rerum accusamus corrupti rem inventore deserunt qui in, error vel quod delectus repellendus! Mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vero hic commodi fugiat facere obcaecati quas vel quo, dolore nulla adipisci delectus nobis excepturi, sint est beatae error provident deserunt reprehenderit rem. Sit, neque?</p>
+        <p className="mt-4 text-slate-300 book_desc">In the enchanting world of dragons, where grand tales of fire-breathing behemoths abound, there lies a captivating legend of a tiny dragon that defies expectations. "The Tiny Dragon's Tale" is a heartwarming and whimsical story that will transport readers of all ages into a realm brimming with magic, friendship, and discovery.</p>
       </div>
       <div className="btmMain flex flex-row p-4 justify-between">
         <Link className='bookMark'>
@@ -52,12 +52,7 @@ const Detail = () => {
           </svg>
         </Link>
         <Link className='read txtCol'>Start Reading</Link>
-
       </div>
-
-
-
-
     </div>
   )
 }

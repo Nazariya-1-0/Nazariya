@@ -1,5 +1,5 @@
 .topDiv {
-    /* background-image: url("./assets/images/the_tiny_dragon.jpg");
+    /* background-image: url("./assets/images/rich_dad_poor_dad.jpeg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat; */
@@ -12,7 +12,7 @@
     background-size: cover;
     height: 80vh;
     width: 100vw;
-    background-image: url("./assets/images/the_tiny_dragon.jpg");
+    background-image: url("./assets/images/rich_dad_poor_dad.jpeg");
     background-repeat: no-repeat;
     object-fit: cover;
     opacity: 100%;

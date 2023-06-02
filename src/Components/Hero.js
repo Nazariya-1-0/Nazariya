@@ -2,8 +2,8 @@ import React from 'react'
 import HeroNav from './HeroNav'
 import Heronavroute from './Heronavroute'
 import otherword from "./assets/images/other_words_for_home.jpg"
-import the_tiny_dragon from "./assets/images/the_tiny_dragon.jpg"
 import the_metropolist from "./assets/images/the_metropolist.jpg"
+import rich_dad from "./assets/images/rich_dad_poor_dad.jpeg"
 import { BiTimeFive } from "react-icons/bi"
 import { MdOutlineContentCopy } from "react-icons/md"
 import HeroBottom from './HeroBottom'
@@ -44,8 +44,8 @@ const BookCard = () => {
             </div>
           </div>
         </div>
-        <Link to="/detail/the_tiny_dragon" className=''>
-          <img src={the_tiny_dragon} alt="" className=' rounded-lg h-44 object-cover' />
+        <Link to="/detail/rich_dad" className=''>
+          <img src={rich_dad} alt="" className=' rounded-lg h-44 object-cover' />
           <div className="btm flex gap-3 mt-2">
             <div className='flex gap-1'>
               <BiTimeFive className='' />
